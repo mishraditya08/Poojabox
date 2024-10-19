@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyPoojaBox - Home</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+   <!-- Header Section -->
+<header>
+    <div class="header-container">
+        <div class="logo">
+            <a href="#"><img src="images/logo.png" alt="MyPoojaBox"></a>
+        </div>
+        <nav class="main-nav">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Categories</a></li>
+                <li><a href="#">Festivals</a></li>
+                <li><a href="#">New Arrivals</a></li>
+                <li><a href="#">Best Sellers</a></li>
+                <li><a href="#">Offers</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="header-right">
+            <input type="text" id="searchInput" placeholder="Search..." />
+            <a href="#" class="cart">Cart (0)</a>
+        </div>
+    </div>
+</header>
+
+<!-- Categories Section -->
+<section class="categories">
+    <h2>Shop by Categories</h2>
+    <div class="category-container">
+        <div class="category">
+            <img src="images/urlis.png" alt="Category 1">
+            <p>Urlis</p>
+        </div>
+        <div class="category">
+            <img src="images/toran.png" alt="Category 2">
+            <p>Toran</p>
+        </div>
+        <div class="category">
+            <img src="images/thali cover.png" alt="Category 3">
+            <p>Thali Cover</p>
+        </div>
+        <div class="category">
+            <img src="images/pooja thali.png" alt="Category 4">
+            <p>Pooja Thali</p>
+        </div>
+        <div class="category">
+            <img src="images/diya.png" alt="Category 5">
+            <p>Diya</p>
+        </div>
+    </div>
+</section>
+
+<!-- Featured Products Section -->
+<section class="featured-products">
+    <h2>Featured Products</h2>
+    <div class="carousel-container">
+        <button class="prev" onclick="moveCarousel(-1)">&#10094;</button>
+        <div class="product-container">
+            <!-- Products will be dynamically added here via JavaScript -->
+        </div>
+        <button class="next" onclick="moveCarousel(1)">&#10095;</button>
+    </div>
+</section>
+
+<!-- Festivals and Offers Section -->
+<section class="offers-section">
+    <h2>Festivals and Offers</h2>
+    <div class="carousel-container">
+        <button class="prev" onclick="moveCarousel(-1, true)">&#10094;</button>
+        <div class="offer-container">
+            <!-- Offers will be dynamically added here via JavaScript -->
+        </div>
+        <button class="next" onclick="moveCarousel(1, true)">&#10095;</button>
+    </div>
+</section>
+
+<!-- Reviews Section -->
+<section class="reviews">
+    <h2>What Our Customers Say</h2>
+    <div class="review-container">
+        <div class="review">
+            <p>"Amazing products and quick delivery!"</p>
+            <p>- Rohan S.</p>
+        </div>
+        <div class="review">
+            <p>"Loved the quality of the pooja items."</p>
+            <p>- Neha T.</p>
+        </div>
+        <div class="review">
+            <p>"Highly recommend for festival shopping."</p>
+            <p>- Amit K.</p>
+        </div>
+    </div>
+</section>
+
+<!-- USP Section -->
+<section class="usp-section">
+    <div class="usp-container">
+        <div class="usp">
+            <img src="images/free shipping.png" alt="Free Shipping">
+            <p>Free Shipping</p>
+        </div>
+        <div class="usp">
+            <img src="images/quality.png" alt="Quality Products">
+            <p>Best Quality</p>
+        </div>
+        <div class="usp">
+            <img src="images/customer support.png" alt="Customer Support">
+            <p>24/7 Support</p>
+        </div>
+    </div>
+</section>
+
+<!-- Footer Section -->
+<footer>
+    <div class="footer-container">
+        <div class="footer-column">
+            <h4>Customer Service</h4>
+            <ul>
+                <li><a href="#">Contact Us</a></li>
+                <li><a href="#">Returns</a></li>
+                <li><a href="#">Site Map</a></li>
+            </ul>
+        </div>
+        <div class="footer-column">
+            <h4>Extras</h4>
+            <ul>
+                <li><a href="#">Brands</a></li>
+                <li><a href="#">Gift Certificates</a></li>
+                <li><a href="#">Affiliate</a></li>
+            </ul>
+        </div>
+        <div class="footer-column">
+            <h4>My Account</h4>
+            <ul>
+                <li><a href="#">My Account</a></li>
+                <li><a href="#">Order History</a></li>
+                <li><a href="#">Wish List</a></li>
+            </ul>
+        </div>
+        <div class="footer-column">
+            <h4>Follow Us</h4>
+            <ul>
+                <li><a href="#">Facebook</a></li>
+                <li><a href="#">Instagram</a></li>
+                <li><a href="#">Twitter</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <p>&copy; 2024 MyPoojaBox. All rights reserved.</p>
+    </div>
+</footer>
+
+
+<script src="script.js"></script>
+</body>
+</html>
